@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@media (max-width:900px){
+    .textform{
+        display: flex;
+    flex-direction: column;
+   
+    }
+
+}
+
+
+@media(max-width:900px){
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
